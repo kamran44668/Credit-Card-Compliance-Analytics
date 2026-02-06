@@ -17,5 +17,5 @@ Backup/
 # Windows specific
 Thumbs.db
 desktop.ini
-# Mac specific (in case a recruiter clones it on a Mac)
+# Mac specific 
 .DS_Store
