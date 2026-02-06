@@ -1,0 +1,21 @@
+# --- Power BI & Office Temp Files ---
+# Ignore the temp "lock" files created when PBIX is open
+~$*
+*.tmp
+*.temp
+*.bak
+*.pbit
+.pbiviz/
+
+# --- SQL Server & Data ---
+# Ignore local backup folders
+Backup/
+*.mdf
+*.ldf
+
+# --- System Files ---
+# Windows specific
+Thumbs.db
+desktop.ini
+# Mac specific (in case a recruiter clones it on a Mac)
+.DS_Store
