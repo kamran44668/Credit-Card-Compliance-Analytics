@@ -4,13 +4,13 @@ CREATE TABLE Fact_Complaints (
     -- 1. Helper ID 
     Row_ID INT IDENTITY(1,1) CONSTRAINT PK_Fact_Complaints PRIMARY KEY,
 
-    -- 2. The IDs (Start as NULL, we will fill them in Step 3)
+    -- 2. The IDs =
     Location_ID int,
     Company_ID int,
     Product_ID int,
     Issue_ID int,
 
-    -- 3. The Data columns (Including the new ones)
+    -- 3. The Data columns
     Complaint_ID varchar(50),
     Date_Received date,
     Date_Sent_To_Company date,
