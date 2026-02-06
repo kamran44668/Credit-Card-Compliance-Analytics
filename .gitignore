@@ -14,8 +14,6 @@ Backup/
 *.ldf
 
 # --- System Files ---
-# Windows specific
 Thumbs.db
 desktop.ini
-# Mac specific 
 .DS_Store
